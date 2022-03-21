@@ -16,9 +16,11 @@ export default function Degrees() {
           <p className="font-light text-xs">
             September. 2019. - April. 2022. Toronto, Canada.
           </p>
-          <p className="font-semibold text-base py-2">
-            - COMPUTER PROGRAMMER ANALYST
-          </p>
+          <ul className="list-disc pl-5 pt-2">
+            <li className="font-semibold text-base">
+              COMPUTER PROGRAMMER ANALYST
+            </li>
+          </ul>
         </div>
 
         <div className="w-[550px] pt-10">
@@ -28,24 +30,12 @@ export default function Degrees() {
           <p className="font-light text-xs">
             March. 2009. - February. 2018. Suwon, Korea.
           </p>
-          <p className="font-semibold text-base pt-2"> - Double major</p>
-          <p className="font-semibold text-base py-2">
-            - Electronics and Radio Engineering , Computer Engineering
-          </p>
-        </div>
-
-        <div className="w-[550px] pt-20">
-          <p className="underline decoration-sky-500/30 text-5xl font-extrabold">
-            Academic Projects
-          </p>
-        </div>
-
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 py-10">
-          <ProjectCard />
-          <ProjectCard />
-          <ProjectCard />
-          <ProjectCard />
-          <ProjectCard />
+          <ul className="list-disc pl-5 pt-2">
+            <li className="font-semibold text-base">Double major</li>
+            <li className="font-semibold text-base">
+              Electronics and Radio Engineering , Computer Engineering
+            </li>
+          </ul>
         </div>
       </div>
     </div>

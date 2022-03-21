@@ -1,7 +1,9 @@
+import TouchForm from "../components/contact/TouchForm";
+
 export default function Contact() {
   return (
-    <div>
-      <div></div>
+    <div className="bg-[#FFE694]">
+      <TouchForm />
     </div>
   );
 }

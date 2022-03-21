@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import bioBackgroudImg from "/public/assets/images/landscape/7.svg";
 
 export default function Bio() {
@@ -22,12 +23,11 @@ export default function Bio() {
             Objective-oriented programming, Android, iOS, Web development skills
             to develop applications.
           </p>
-          <a
-            href="#"
-            className="block bg-gray-800 hover:bg-gray-900 py-3 px-4 text-lg text-white font-bold uppercase mt-10"
-          >
-            Showcases
-          </a>
+          <Link href="/academic">
+            <a className="block bg-gray-800 hover:bg-gray-900 py-3 px-4 text-lg text-white font-bold uppercase mt-10">
+              Showcases
+            </a>
+          </Link>
         </div>
       </div>
     </div>
