@@ -4,15 +4,13 @@ export default function Career() {
   return (
     <div className="flex flex-col w-full justify-center items-center">
       <div className="flex flex-col justify-center items-center">
-        <div className="w-[550px] pt-20">
+        <div className="w-[550px]">
           <p className="underline decoration-sky-500/30 text-5xl font-extrabold">
             Professional
           </p>
         </div>
         <div className="w-[550px] pt-10">
-          <p className="font-bold text-2xl py-2">
-            Hmart / Part-time Programmer
-          </p>
+          <p className="font-bold text-2xl py-2">Hmart Toronto / Programmer</p>
           <p className="font-light text-xs">
             September. 2020 - Now , Toronto, Canada
           </p>

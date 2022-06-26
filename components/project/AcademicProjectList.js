@@ -9,7 +9,7 @@ export default function AcademicrojectList() {
             Projects
           </p>
         </div>
-
+        {/* 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 py-10">
           <ProjectCard
             link="academic/ap1"
@@ -42,8 +42,9 @@ export default function AcademicrojectList() {
             imgLink="https://i.ibb.co/mNTVNJY/Hero-Homepage-2880x1200.jpg"
             title="Salary Calculator"
             description="Develop the android salary calculator."
-          />
+          /> 
         </div>
+        */}
       </div>
     </div>
   );

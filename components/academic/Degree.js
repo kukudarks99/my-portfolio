@@ -4,7 +4,7 @@ export default function Degrees() {
   return (
     <div className="flex flex-col w-full justify-center items-center bg-[#FFF5FF]">
       <div className="flex flex-col justify-center items-center">
-        <div className="w-[550px] pt-20">
+        <div className="w-[550px]">
           <p className="underline decoration-sky-500/30 text-5xl font-extrabold">
             Educational
           </p>
@@ -18,7 +18,7 @@ export default function Degrees() {
           </p>
           <ul className="list-disc pl-5 pt-2">
             <li className="font-semibold text-base">
-              COMPUTER PROGRAMMER ANALYST
+              Computer programmer analyst (T127)
             </li>
           </ul>
         </div>
@@ -31,9 +31,9 @@ export default function Degrees() {
             March. 2009. - February. 2018. Suwon, Korea.
           </p>
           <ul className="list-disc pl-5 pt-2">
-            <li className="font-semibold text-base">Double major</li>
+            <li className="font-semibold text-base">Computer Engineering</li>
             <li className="font-semibold text-base">
-              Electronics and Radio Engineering , Computer Engineering
+              Electronics and Radio Engineering
             </li>
           </ul>
         </div>

@@ -17,7 +17,7 @@ export default function Bio() {
           <p className="flex flex-col items-center font-extrabold text-6xl text-center md:text-8xl text-white">
             Creative Programmer
           </p>
-          <p className="flex flex-col max-w-lg text-center items-center font-extrabold text-lg mt-6 text-gray-800">
+          <p className="flex flex-col max-w-2xl text-center items-center font-extrabold text-2xl mt-6 text-gray-800">
             Mobile developer looking for a position in the development team,
             where I can apply my five years of developing experience,
             Objective-oriented programming, Android, iOS, Web development skills
